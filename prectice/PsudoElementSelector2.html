@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsudoClassSELECTOR 2</title>
+    <style>
+        h1::before
+        {
+            content: " ' ";
+        }
+        h1::after
+        {
+            content: " ' ";
+        }
+        p::first-letter{
+        background-color: purple;
+        color: aliceblue;
+        font-size: 80px;
+      }
+      p::first-line{
+        background-color: crimson;
+        color: aliceblue;
+        font-size: 30px;
+      }
+      p::selection{
+        background-color: khaki;
+        color: teal;
+      }
+    </style>
+</head>
+<body>
+    <h1>PsudoClassSELECTOR 2</h1>
+    <p>Hello Akshay How Are You.I hope You are doing well</p>
+</body>
+</html>
