@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector 2</title>
+    <style>
+        .parent>p
+        {
+            background-color: aqua;
+            color: black;
+            border: 1px solid red;
+        }
+        .parent
+        {
+            border: 1px solid blue;
+        }
+        .child
+        {border: 1px solid yellow;}
+        .child>p{
+            background-color: teal;
+            color: khaki;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Child Selector 2</h1>
+    <div class="parent">
+    <p>Hello Akshay How Are You</p>
+    <p>Hello Akshay How Are You</p>
+    <p>Hello Akshay How Are You</p>
+    <div class="child">
+        <p>majama ho bhai</p>
+        <p>majama ho bhai</p>
+        <p>majama ho bhai</p>
+    </div>
+    <p>Hello Akshay How Are You</p>
+    <p>Hello Akshay How Are You</p>
+    </div>
+</body>
+</html>
