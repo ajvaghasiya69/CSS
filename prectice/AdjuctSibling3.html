@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selector</title>
+    <style>
+       .parent+p{
+        background-color: khaki;
+        color: crimson;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid blue;
+       } 
+    </style>
+</head>
+<body>
+    <h1>Adjacent Sibling Selector (+)</h1>
+    <div class="parent">
+        <p>This selector is represented by (+) sign.</p>
+    </div>
+    <p>The adjacent sibling selector is used to select an element that is directly after another specific element.</p>
+    <p>sibling elements must have the same parent element.</p>
+    <p>Adjacent means "immediately following".</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+    <style>
+        .parent>p{
+           color: blueviolet;
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+        .child>p{
+            background-color: greenyellow;
+            color: blue;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Child Selector (>)</h1>
+    <div class="parent">
+        <p>The child combinator (>) is placed between two css selectors.</p>
+        <p>It matches only those elements matched by the second selector that are the direct children of elements matched by the first.</p>
+        <div class="child">
+           <p>Elements matched by the second selector must be immediate children of the elements matched by the first selector.</p>
+        </div>
+        <p>It is represented by (>) sign.</p>
+    </div>
+</body>
+</html>
