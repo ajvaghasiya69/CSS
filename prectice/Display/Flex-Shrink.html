@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		CSS | flex-shrink Property
+	</title>
+	<style>
+		#main {
+			width: 450px;
+			height: 200px;
+			border: 1px solid black;
+			display: -webkit-flex;
+			display: flex;
+			color: white;
+            justify-content: center;
+		}
+
+		
+
+		h3 {
+			margin-top: 20px;
+			margin-left: 50px;
+		}
+
+		#main div {
+			
+			flex-shrink: 1;
+			flex-basis: 100px;
+		}
+
+		/* shrinking the 2nd div compare to others */
+		#main div:nth-of-type(2) {
+			flex-shrink: 4;
+		}
+	</style>
+</head>
+
+<body>
+	
+
+	<h3>The flex-shrink:number</h3>
+
+	<!-- Making 5 divs in main -->
+	<div id="main">
+		<div style="background-color:#009900;">
+			<p>
+				Akshay is here
+			</p>
+		</div>
+
+		<div style="background-color:#00cc99;">
+			<p> manish is hear</p>
+		</div>
+
+		<div style="background-color:#0066ff;">
+			<p>
+				Raghav is here
+			</p>
+		</div>
+
+		<div style="background-color:#66ffff;;"></div>
+
+		<div style="background-color:#660066;">
+			<p>
+				Mansukh is here
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>
