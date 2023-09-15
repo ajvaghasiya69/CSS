@@ -11,18 +11,19 @@
         box-sizing: border-box;
       }
         .container{
-            background-image: url(../image/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+           background: url(../image/netflix\ img.jpg) rgba(38,38, 38, 0.9);
             height: 700px;
             width: 100%;
-            opacity: 0.8;
+           background-blend-mode: darken;
+           background-repeat: no-repeat;
+           background-size: cover;
             }
         .nav{
             display: flex;
         }
         .net{
-            font-size: 40px;
-            color: red;
-            padding-top: 20px;
+            width: 100px;
+            
             padding-left: 100px;
             font-weight: bolder;
         }
@@ -35,7 +36,7 @@
             display: inline;
             border-radius: 2px;
            margin-top: 35px;
-           margin-left: 700px;
+           margin-left: 810px;
            height: 30px;
            text-align: center;
            padding-top: 5px;
@@ -80,8 +81,35 @@
             color: white;
             font-size: 30px;
             margin-top: 5px;
-            margin-left: 500px;
+            margin-left: 400px;
             font-family: sans-serif;
+            
+        }
+        .email{
+            height: 40px;
+            width: 350px;
+            border: 1px solid white;
+            font-size: 17px;
+            border-radius: 5px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4);
+            margin-top: 10px;
+            
+            
+        }
+        .button{
+            height: 40px;
+            width: 190px;
+            border: none;
+            border-radius: 5px;
+            font-size: 22px;
+            color: white;
+            background-color: red;
+            margin-top: 10px;
+
+            
+            
+            
         }
         .tv{
             background-color: black;
@@ -285,7 +313,7 @@
    <div class="container">
     
     <div class="nav">
-        <div class="net">NETFLIX</div>
+        <div class="net"><img src="../image/Logos-Readability-Netflix-logo.png" alt="" width="200px"></div>
     <div class="Language">
         <form action="">
             <select name="" id="">
@@ -302,8 +330,8 @@
    <div class="ssub">Ready to watch? Enter your email to create or restart your membership.</div>
    <div class="form">
     <form action="">
-        <input type="text" placeholder="Email address">
-        <input type="button" value="Get Started >">
+        <input class="email" type="email" placeholder="Email address">
+        <button class="button">Get Started  &nbsp;></button>
     </form>
    </div>
     
