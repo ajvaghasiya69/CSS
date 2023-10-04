@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD WEBSIGHT</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            background-image: url(../image/bbaner.png) ;
+            
+           
+            background-size: cover;
+            background-blend-mode: darken;
+        
+            
+        }
+        .container{
+            
+            color: white;
+            font-weight: bolder;
+            display: flex;
+            
+            
+        }
+        ul{
+            display: inline-flex;
+            
+            list-style-type: none;
+            padding-top: 30px;
+           
+            
+        }
+        .box1{
+            width: 50%;
+            margin: 10px;
+        }
+        li{
+            padding-left: 70px;
+        }
+        .box2{
+            font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+margin-right: 40px;
+        }
+        h1{
+            font-size: 61px;
+line-height: 77px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+margin-left: 20px;
+        }
+        .p{
+            font-size: 22px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Nunito";
+margin-left: 20px;
+margin-top: 20px;
+        }
+        button{
+            font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+width: 222px;
+height: 55px;
+border-radius: 32px;
+background-color: #f64b3c;
+margin-bottom: 70px;
+margin-top: 20px;
+margin-left: 20px;
+
+        }
+        .mainbox{
+            background-image: linear-gradient(0deg,rgba(0,0,0,0) 0%, rgba(0,0,0,0.99) 85%, rgba(0,0,0,0.99) 100%);
+        }
+        .sec1{
+            background-color: #f6eedf;
+            background-image: url(../Task/psdpic/Design.png);
+            background-size: cover;
+           
+        }
+        .c{
+            font-size: 64px;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+padding-top: 30px;
+        }
+        .cp{
+            font-size: 25px;
+color: #f64b3c;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+margin-top: 20px;
+        }
+        .cpi{
+            display: flex;
+            margin-left: 90px;
+            
+        }
+        .cpi1{
+            
+            margin-left: 90px;
+            margin-top: 50px;
+            margin-bottom: 80px;
+            
+        }
+        .cpi2{
+            
+            margin-left: 90px;
+            margin-top: 50px;
+            
+        }
+        .cpi3{
+            
+            margin-left: 90px;
+            margin-top: 50px;
+            
+        }
+        .sec2{
+            background-color: #f64b3c;
+            display: flex;
+            justify-content: center;
+        }
+        .part1{
+          padding: 80px 100px 100px;
+        }
+        
+        .bb2{
+            font-size: 75px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+margin-right: 100px;
+margin-top: 100px;
+        }
+        .b22{
+            font-size: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Nunito";
+
+        }
+        .btn
+        {
+            background-color:#ffffff ;
+            color: #f64b3c;
+           
+        }
+        .sec3{
+            background-color: #f6eedf;
+           
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            position: relative;
+        }
+        .s3{
+            font-size: 75px;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+padding-top: 100px;
+
+        }
+        .p3{
+            font-size: 20px;
+color: #f64b3c;
+font-weight: 400;
+font-family: "Montserrat";
+
+        }
+        .b3{
+            font-size: 25px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+border-radius: 32px;
+background-color: #f64b3c;
+
+margin-top: 30px;
+        }
+        
+        .v1{
+            position: absolute;
+            bottom: 320px;
+        }
+        .v2{
+            position: absolute;
+            top: 400px;
+        }
+        .v3{
+               position: absolute;
+               right: 10px;
+               top: 100px;
+        }
+        .v4{
+              position: absolute;
+              right: 10px;
+              bottom: 10px;
+        }
+        .v5{
+            position: absolute;
+            left: 200px;
+            bottom: 10px;
+        }
+        .v6{
+            position: absolute;
+            left: 0px;
+            top: 80px;
+        }
+        .sec4{
+            background-image: url(../Task/psdpic/Background\ \(1\).png);
+
+        }
+        .h4{
+            font-size: 62px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+padding-top: 70px;
+        }
+        .p4{
+            font-size: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+        }
+        .cir{
+            display: flex;
+            justify-content: center;
+           
+        }
+        .c1{
+            width: 280px;
+height: 280px;
+border-radius: 155px;
+background-color: #f64b3c;
+border: 5px solid #ffffff;
+margin-left: 40px;
+margin-top: 40px;
+margin-bottom: 80px;
+
+        }
+        .z1{
+            font-size: 33px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+
+        }
+        .s1{
+            font-size: 102px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+padding-top: 60px;
+        }
+        .sec5{
+            background-color: #f6eedf;
+            background-image: url(../Task/psdpic/d1.png);
+            background-size: cover;
+        }
+        .po{
+            font-size: 55px;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+padding-top: 40px;
+        }  
+        .s5{
+            display: flex;
+            margin-top: 60px;
+        justify-content: space-around;
+                  
+            
+          
+            
+        } 
+        .ss1{
+            background-image: url(../Task/psdpic/s5.png);
+            background-repeat: no-repeat;
+            
+        }   
+       .m{
+        font-size: 23px;
+text-transform: uppercase;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+margin-top: 20px;
+       }
+       .r{
+        font-size: 23px;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+margin-top: 20px
+       }
+       .bt{
+        font-size: 15px;
+color: #f64b3c;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+margin-top: 20px;
+       }
+       .bu{
+        font-size: 15px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+width: 190px;
+height: 39px;
+border-radius: 29px;
+background-color: #f64b3c;
+       }
+       .i{
+        margin-left: 70px;
+        margin-top: 20px;
+        
+       }
+       .sec6{
+        background-image: url(../Task/psdpic/chamchi.png);
+        
+        
+       }
+       .pn{
+        font-size: 20px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+padding-top: 300px;
+       }
+       .pb{
+        font-size: 45px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Calistoga";
+text-align: center;
+margin-top: 50px;
+padding-bottom: 200px;
+       }
+       .sec7{
+        background-color: #f6eedf;
+        
+      
+           
+           
+           position: relative;
+          
+       }
+       .b1{
+        position: absolute;
+        top: 20px;
+        right: 70px;
+       }
+       .b2{
+        position: absolute;
+        top: 220px;
+        left: 20px;
+       }
+       .bb3{
+        position: absolute;
+        top: 430px;
+        left: 600px;
+       }
+      .b4{
+        position: absolute;
+        top: 30px;
+        left: 100px;
+      }
+      .b5{
+        position: absolute;
+        top: 350px;
+        left: 50px;
+       
+       
+      }
+      .b6{
+        position: absolute;
+        right: 100px;
+        top: 250px;
+      }
+      .b7{
+        position: absolute;
+        top: 20px;
+        left: 550px;
+       
+      }
+      .b8{
+        position: absolute;
+        right: 140px;
+        top: 400px;
+      }
+      .do{
+        font-size: 55px;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+padding-top: 170px;
+    
+    }
+    .mn{
+        font-size: 20px;
+color: #f64b3c;
+font-weight: 400;
+font-family: "Nunito";
+text-align: center;
+
+    }
+    .email{
+       
+font-size: 25px;
+color: #835e3f;
+font-weight: 400;
+font-family: "Nunito";
+text-align: center;
+background-color: #ffffff;
+border: #ffffff;
+border-radius: 30px 0px 0px 30px;
+height: 50px;
+position: relative;
+left: 390px;
+
+
+    }
+    .button{
+        font-size: 25px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Nunito";
+text-align: center;
+position: relative;
+left: 350px;
+height: 50px;
+border: 1px solid red;
+border-radius: 0px 30px 30px 0px;
+
+    }
+    .form{
+        margin-top: 10px;
+        padding-bottom: 100px;
+      
+       
+    }
+    .foot{
+    background-image: url(../Task/psdpic/foot.png);
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+    
+    }
+    .ti{
+    font-size: 25px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+padding-top: 100px;
+
+    
+    
+    
+    }
+    .u1{
+
+    font-size: 16px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Nunito";
+margin-top: 20px;
+    }
+    .insta{
+        font-size: 30px;
+        padding-bottom: 100px;
+        padding-top: 20px;
+    }
+    li{
+        list-style: none;
+        color: white;
+       
+    }
+    .tim{
+        padding-left: 70px;
+        font-size: 25px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+padding-bottom: 20px;
+padding-top: 100px;
+    }
+   
+   
+  
+       
+
+      
+       
+        
+        @media screen and (max-width: 600px) {
+      ul {
+        flex-direction: column;
+       
+      }
+    }
+        
+    </style>
+</head>
+<body>
+   <div class="main">
+    
+    <div class="mainbox">
+        <div class="container">
+            <div class="box1"><img src="../image/blogo.png" alt=""></div>
+            <div class="box2">
+                <ul >
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>Promo</li>
+                    <li>About</li>
+                    <li>Contect</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="box1">
+        <h1>Get CashBack <br> Up To 50%</h1>
+        <p class="p">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Iste distinction esse fugiat.Lorem <br>ipsum dolor,sit amet consectetur adipicing elit. <br>Porro alias placeat voluptatem?</p>
+    </div>
+    <button>ORDER NOW</button>
+   </div>
+   <div class="sec1">
+    <div>
+        <h3 class="c">OUR CHEF</h3>
+        <p class="cp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias aspernatur quidem <br>quisquam nobis cupiditate optio exercitationem sit aperiam expedita.</p>
+        
+    
+    
+    
+    </div>
+    <div class="cpi">
+        <div class="cpi1"><img src="../Task/psdpic/Card.png" alt=""></div>
+        <div class="cpi2"><img src="../Task/psdpic/Card (1).png" alt=""></div>
+        <div class="cpi3"><img src="../Task/psdpic/Card (2).png" alt=""></div>
+    </div>
+    
+
+   </div>
+   <div class="sec2">
+    <div class="part1"><img src="../Task/psdpic/Image.png" alt="" width="300px"></div>
+    <div class="part2"> <h3 class="bb2">Best Burger</h3>
+        <p class="b22">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero hic, <br>cum ipsam officia libero alias, perspiciatis tenetur quidem soluta molestiae <br>nisi voluptatem!</p>
+        <button class="btn">ORDER NOW</button>
+    </div>
+    
+   
+   </div>
+   <div class="sec3">
+    <span class="v1"><img src="../Task/psdpic/Vector Smart Object.png" alt=""></span>
+    <span class="v2"><img src="../Task/psdpic/Vector Smart Object (1).png" alt=""></span>
+    <span class="v3"><img src="../Task/psdpic/Vector Smart Object (2).png" alt=""></span>
+    <span class="v4"><img src="../Task/psdpic/Vector Smart Object (6).png" alt=""></span>
+    <span class="v5"><img src="../Task/psdpic/Vector Smart Object (4).png" alt=""></span>
+    <span class="v6"><img src="../Task/psdpic/Vector Smart Object (5).png" alt=""></span>
+    <div class="p1">
+       <h3 class="s3">Big Burger</h3> 
+       <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ratione, animi. Fuga cumque amet fugit molestias soluta! <br>Ducimus, vel sequi. Rem qui hic nesciunt doloremque sit.</p>
+       <button class="b3">ORDER NOW</button>
+    </div>
+    <div class="part1">
+        <img src="../Task/psdpic/b1.png" alt="" width="300px">
+    </div>
+
+   </div>
+   <div class="sec4">
+    <h3 class="h4">Statistics</h3>
+    <p class="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptatum accusantium et veritatis maxime tenetur, <br>eius perspiciatis delectus vero praesentium dolores. Non ducimus unde reiciendis!</p>
+    <div class="cir">
+        <div class="c1"><p class="s1">7K</p>
+            <p class="z1">Customer</p></div>
+            <div class="c1">
+                <p class="s1">109</p>
+                <p class="z1">Outlets</p>
+            </div>
+            <div class="c1">
+                <p class="s1">35</p>
+                      <p class="z1">Country</p>
+
+            </div>
+    </div>
+
+   </div>
+   <div class="sec5">
+    <h3 class="po">Popular Package</h3>
+    <div class="s5">
+        <div class="ss1">
+            <h3 class="m">Package I</h3>
+            <div class="i"><img src="../Task/psdpic/Icon.png" alt=""></div>
+            <p class="r">$ 10.00</p>
+            <p class="bt">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Saepe, deleniti!</p>
+            <button class="bu">ORDER NOW</button>
+
+        </div>
+        <div class="ss1">
+            <h3 class="m">Package II</h3>
+            <div class="i"><img src="../Task/psdpic/Icon.png" alt=""></div>
+            <p class="r">$ 10.00</p>
+            <p class="bt">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Saepe, deleniti!</p>
+            <button class="bu">ORDER NOW</button>
+
+        </div>
+        <div class="ss1">
+            <h3 class="m">Package III</h3>
+            <div class="i"><img src="../Task/psdpic/Icon.png" alt=""></div>
+            <p class="r">$ 10.00</p>
+            <p class="bt">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Saepe, deleniti!</p>
+            <button class="bu">ORDER NOW</button>
+
+        </div>
+    </div>
+    
+    
+
+   </div>
+   <div class="sec6">
+
+    <p class="pn">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam exercitationem omnis <br>velit recusandae, sit corrupti aspernatur veniam laborum ratione qui distinctio <br>fugit molestiae reprehenderit necessitatibus.</p>
+    <p class="pb">Barry Henderson</p>
+   </div>
+  <div class="sec7">
+    <span class="b1"><img src="../Task/psdpic/Vector Smart Object (17).png" alt=""></span>
+    <span class="b2"><img src="../Task/psdpic/Vector Smart Object (8).png" alt=""></span>
+    <span class="bb3"><img src="../Task/psdpic/Vector Smart Object (18).png" alt=""></span>
+    <span class="b4"><img src="../Task/psdpic/Vector Smart Object (11).png" alt=""></span>
+    <span class="b5"><img src="../Task/psdpic/Vector Smart Object (12).png" alt=""></span>
+    <span class="b6"><img src="../Task/psdpic/Vector Smart Object (13).png" alt=""></span>
+    <span class="b7"><img src="../Task/psdpic/Vector Smart Object (14).png" alt=""></span>
+    <span class="b8"><img src="../Task/psdpic/Vector Smart Object (19).png" alt=""></span>
+    <h3 class="do">Don't miss Our Update</h3>
+<p class="mn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, <br>vero soluta minus eum magnam voluptas ducimus quia.</p>
+<div class="form">
+    <form action="">
+        <input class="email" type="email" placeholder="Email address">
+        <button class="button">Subscribe</button>
+    </form>
+   </div>
+
+   </div>
+   
+
+  </div>
+  <div class="foot">
+  
+  <div class="co1"><h3 class="ti">Title Hear</h3>
+  <p class="u1">Lorem ipsum dolor sit amet consectetur, <br>adipisicing elit.Nam, quis recusandae. Quas, labore. <br> Sunt voluptatum tempora ab ipsa iure eligendi.</p>
+  <i class="fa-brands fa-instagram insta"></i>
+  <i class="fa-brands fa-facebook insta"></i>
+  <i class="fa-brands fa-twitter insta"></i>
+  <i class="fa-brands fa-whatsapp insta"></i>
+
+  </div>
+  <div class="col2">
+    <h3 class="tim">About</h3>
+    
+        <li>History</li>
+        <li>Our Team</li>
+        <li>Brand Guidelines</li>
+         <li>Teams&Condition</li>
+         <li>Privacy Policy</li>
+    
+
+  </div>
+  <div class="col3">
+    <h3 class="tim">Services</h3>
+    
+        <li>How to Order</li>
+        <li>Our Product</li>
+        <li>Order Status</li>
+         <li>Promo</li>
+         <li>Payment Method</li>
+    
+
+  </div>
+  <div class="col4">
+    <h3 class="tim">Other</h3>
+    
+        <li>Contect</li>
+        <li>Help</li>
+        <li>Privacy</li>
+        
+         
+    
+
+  </div>
+  
+  </div>
+
+  
+  
+</body>
+</html> 

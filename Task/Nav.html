@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        background-color: black;
+        display: flex;
+    }
+    li{
+        list-style-type: none;
+    }
+    .box1{
+            width: 50%;
+            margin: 10px;
+        }
+        ul{
+            display: inline-flex;
+            
+            list-style-type: none;
+            padding-top: 30px;
+           
+            
+        }
+        .box2{
+            color: white;
+            margin-top: 20px;
+            font-weight: bolder;
+            
+           
+        }
+        li{
+            padding-left: 60px;
+        }
+        .bar{
+            color: white;
+            margin-left: 50px;
+        }
+        ul:hover {
+      background-color: #ddd;
+      color: black;
+    }
+        @media screen and (max-width: 1300px) {
+      ul {
+       
+        display: block;
+        text-align: left;
+        flex-direction: column;
+        display: none;
+       
+      }
+    }
+    input[type="checkbox"] {
+        margin: 5px;
+        width: 20px;
+        height: 20px;
+      }
+      input:checked + ul{
+        display: block;
+      }
+</style>
+<body>
+   <div class="container">
+    <div class="box1"><img src="../image/blogo.png" alt=""></div>
+    <div class="box2">
+        <ul >
+            <li>Home</li>
+            <li>Product</li>
+            <li>Promo</li>
+            <li>About</li>
+            <li>Contect Us</li>
+        </ul>
+        <span><span><i class="fa-solid fa-bars bar"></i></span><input type="checkbox"></span>
+    </div>
+   </div>
+</body>
+</html>
