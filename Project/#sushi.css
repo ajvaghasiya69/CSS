@@ -1,0 +1,371 @@
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .sec1{
+      background-color: #ffd17e;
+       background-image: url(../Project/shushipic/mainimag1.png);
+    }
+    .navbar{
+        display: flex;
+       background-color: #21243d;
+       justify-content: space-between;
+      
+     
+    }
+    .logo{
+        margin: 15px 0px 10px 25px;
+    }
+    .search{
+        margin: 30px 40px 20px 0px;
+    }
+    ul{
+        font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+list-style: none;
+display: flex;
+gap: 40px;
+margin: 30px 100px 20px 0px;
+    }
+    .subsec1{
+       
+    }
+      h1{
+        font-size: 125px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+padding: 100px 0px 0px 100px;
+    }
+    .p{
+        font-size: 26px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+padding: 20px 0px 0px 100px;
+    }
+    button{
+        font-size: 25px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+width: 322px;
+height: 60px;
+border: 1px solid #21243d ;
+border-radius: 33px;
+
+background-color: #21243d;
+margin: 50px 0px 100px 100px;
+    }
+    .sec2{
+        background-color: #21243d;
+        position: relative;
+    }
+    h2{
+        font-size: 64px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 50px;
+    }
+    .subtext{
+        font-size: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 10px;
+    }
+    h5{
+        font-size: 28px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 10px;
+    }
+    .pp{
+        font-size: 17px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 10px;
+    }
+    .plat{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding-bottom: 100px;
+        padding-top: 30px;
+    }
+    .imi{
+      width: 260px;
+      height: 260px;
+      border-radius: 130px;
+    }
+    .shape1{
+      
+        position: absolute;
+        top: 350px;
+        left: -100px;
+    }
+    .shape2{
+      
+      position: absolute;
+     bottom: 50px;
+      right: 30px;
+  }
+ 
+  .sec4{
+    background-image: url(../Project/shushipic/b2.png);
+  }
+  .cir{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+   
+}
+.c1{
+    width: 280px;
+height: 280px;
+border-radius: 155px;
+background-color: #21243d;
+border: 5px solid #ffffff;
+margin-left: 40px;
+margin-top: 40px;
+margin-bottom: 80px;
+
+}
+.z1{
+    font-size: 33px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+
+}
+.s1{
+    font-size: 102px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+padding-top: 60px;
+}
+.h4{
+    font-size: 62px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 80px;
+}
+.p4{
+    font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+}
+.sec3{
+    background-image: url(../Project/shushipic/Background\ \(1\).png);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.par2{
+      margin-left: 50px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+}
+.par1{
+      
+      margin-top: 100px;
+      margin-bottom: 100px;
+     
+}
+.h5{
+    font-size: 75px;
+color: #21243d;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.ppp{
+    font-size: 30px;
+color: #21243d;
+font-weight: 400;
+font-family: "Montserrat";
+}
+.btn{
+    font-size: 25px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+width: 252px;
+height: 45px;
+border-radius: 32px;
+background-color: #21243d;
+padding-top: 10px;
+margin-top: 20px;
+}
+.sec5{
+    background-image: url(../Project/shushipic/Background\ \(1\).png);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sec6{
+   
+    background-image: url(../Project/shushipic/bai.png);
+    background-color: #21243d;
+}
+.img{
+   margin-left: 23%;
+  padding-top: 50px;
+ 
+  
+}
+.h8{
+    font-size: 48px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 20px;
+padding-bottom: 100px;
+
+}
+.p9{
+    font-size: 38px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 30px;
+}
+.sec7{
+    background-image: url(../Project/shushipic/Background\ \(1\).png);
+    position: relative;
+   
+}
+.h7{
+    text-align: center;
+    font-size: 75px;
+color: #21243d;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 100px;
+
+}
+.pp4{
+    font-size: 30px;
+color: #21243d;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+}
+.bai{
+    width: 260px;
+      height: 260px;
+      border-radius: 130px;
+      margin-left: 190px;
+    }
+    input{
+       
+font-size: 25px;
+color: #000000;
+font-weight: 400;
+font-family: "Montserrat";
+border: 1px solid white;
+border-radius: 30px;
+background-color: #ffffff;
+width: 500px;
+height: 53px;
+padding-left: 20px;
+margin-left: 130px;
+    }
+    .batan{
+        font-size: 25px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+width: 222px;
+height: 53px;
+border-radius: 33px;
+background-color: #21243d;
+margin-left: 0px;
+position: relative;
+right: 40px;
+
+
+
+
+    }
+    form{
+        align-items: center;
+        padding-left: 100px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+        padding-bottom: 70px;
+        
+        
+    }
+    .d1{
+        position: absolute;
+        bottom: 30px;
+        left: 580px;
+    }
+    .footer{
+        background-color: #111111;
+        display: flex;
+        justify-content: space-around;
+    }
+    .title{
+        font-size: 32px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+padding-top: 100px;
+
+
+    }
+    .ssb{
+        font-size: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+padding-top: 10px;
+line-height: 20px;
+    }
+
+    .icon{
+        margin-bottom: 100px;
+        padding-top: 20px;
+    }
+    li{
+        list-style: none;
+        padding-top: 10px;
+    }
+
+
+    
+   
+    
+ 
+
+    
