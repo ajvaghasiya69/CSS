@@ -3,7 +3,9 @@
             padding-left: 20px;
         }
         
-
+        .far-bars{
+            display: none;
+        }
 
         ul{
             padding: 10px;
@@ -112,6 +114,9 @@ display: inline-flex;
 padding: 20px;
 
         }
+        .far-bars{
+            display: none;
+        }
         li{
             padding-left: 30px;
         }
@@ -210,6 +215,10 @@ padding: 20px;
     @media (max-width: 576px){
         .ul{
             display: none;
+        }
+        .bar{
+          font-size: 50px;
+          color: white;
         }
         .button{
           
